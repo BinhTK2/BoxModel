@@ -12,151 +12,148 @@
   </head>
   <body>
     <div class="top">
-      <nav class="top--nav">
+      <nav class="top__nav">
         <img
           src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1088px-W3Schools_logo.svg.png"
           alt="w3schools"
         />
-        <ul>
-          <li><a href="#" class="a">Tutorial</a></li>
-          <li><a href="#" class="a">Excercises</a></li>
-          <li><a href="#" class="a">Certificates</a></li>
-          <li><a href="#" class="a">Services</a></li>
-          <input type="text" placeholder="Search..." id="top--search" />
-          <div class="top--login">
-            <button class="button--top" type="submit">Sign Up</button>
-            <button class="button--top" type="submit">Log In</button>
+        <ul class="top__menu">
+          <li class="top__menu-item"><a href="#" class="top__menu-link">Tutorial</a></li>
+          <li class="top__menu-item"><a href="#" class="top__menu-link">Excercises</a></li>
+          <li class="top__menu-item"><a href="#" class="top__menu-link">Certificates</a></li>
+          <li class="top__menu-item"><a href="#" class="top__menu-link">Services</a></li>
+          <input type="text" placeholder="Search..." class="top__search" />
+          <div class="top__login">
+            <button class="top__button top__button--signup" type="submit">Sign Up</button>
+            <button class="top__button top__button--login" type="submit">Log In</button>
           </div>
         </ul>
       </nav>
-      <nav class="top--nav2">
-        <ul>
-          <li><a href="#" class="a1">HTML</a></li>
-          <li><a href="#" class="a1">CSS</a></li>
-          <li><a href="#" class="a1">JAVASCRIPT</a></li>
-          <li><a href="#" class="a1">SQL</a></li>
-          <li><a href="#" class="a1">PYTHON</a></li>
+      <nav class="top__nav top__nav--secondary">
+        <ul class="top__menu">
+          <li class="top__menu-item"><a href="#" class="top__menu-linksecond">HTML</a></li>
+          <li class="top__menu-item"><a href="#" class="top__menu-linksecond">CSS</a></li>
+          <li class="top__menu-item"><a href="#" class="top__menu-linksecond">JAVASCRIPT</a></li>
+          <li class="top__menu-item"><a href="#" class="top__menu-linksecond">SQL</a></li>
+          <li class="top__menu-item"><a href="#" class="top__menu-linksecond">PYTHON</a></li>
         </ul>
       </nav>
     </div>
     <div class="body">
-      <div class="body--head--content">
-        <div class="content--title">
+      <div class="body__header">
+        <div class="body__title">
           <h1>Learn to Code</h1>
         </div>
-        <div class="content--discription">
+        <div class="body__discription">
           <p>With the world's largest web developer site.</p>
         </div>
-        <div class="content--search">
+        <div class="body__search">
           <input
             type="text"
             placeholder="Search our tutorials, e.g.HTML"
-            id="body--search"
+            class="body__search-input"
           />
         </div>
-        <div class="content--why">
-          <a href="#">Not Sure Where To Begin?</a>
+        <div class="body__why">
+          <a href="#" class="hero__why-link">Not Sure Where To Begin?</a>
         </div>
       </div>
-      <div class="body--mix--content">
-        <div class="col--left">
-          <div class="col--left--card1" style="font-weight: bold; font-size: 80px">
+      <div class="body__content">
+        <div class="body__col-left">
+          <div class="body__col-left-card1" style="font-weight: bold; font-size: 80px">
             <label>HTML</label>
           </div>
-          <div class="col--left--card2" style="font-size: 19px">
+          <div class="body__col-left-card2" style="font-size: 19px">
             <p>The language for building web pages</p>
           </div>
           <div>
-            <button type="submit" class="col--left--button1">Learn HTML</button>
+            <button type="submit" class="top__button body__col-left-button1">Learn HTML</button>
           </div>
           <div>
-            <button type="submit" class="col--left--button2">
+            <button type="submit" class="top__button body__col-left-button2">
               Video Tutorial
             </button>
           </div>
           <div>
-            <button type="submit" class="col--left--button3">
+            <button type="submit" class="top__button body__col-left-button3">
               HTML Reference
             </button>
           </div>
           <div>
-            <button type="submit" class="col--left--button4">
+            <button type="submit" class="top__button body__col-left-button4">
               Get Certified
             </button>
           </div>
         </div>
-        <div class="col--right">
+        <div class="body__col-right">
           <p style="font-weight: bold; font-size: 20px">HTML Example:</p>
-          <div class="col--right--table">
-            <span><</span><span class="col--doctype">!</span><span class="col--doctype">DOCTYPE</span><span class="col--doctype"> html </span
+          <div class="body__col-right-table">
+            <span><</span><span class="body__doctype">!</span><span class="body__doctype">DOCTYPE</span><span class="col--doctype"> html </span
             ><span>></span><br />
-            <span><</span><span class="col--html">html</span><span>></span><br />
-            <span><</span><span class="col--html">head</span><span>></span><br />
-            <span><</span><span class="col--html">title</span><span>></span
-            ><span>HTML Tutorial</span><span><</span><span class="col--html">/title</span
+            <span><</span><span class="body__html">html</span><span>></span><br />
+            <span><</span><span class="body__html">head</span><span>></span><br />
+            <span><</span><span class="body__html">title</span><span>></span
+            ><span>HTML Tutorial</span><span><</span><span class="body__html">/title</span
             ><span>></span><br />
-            <span><</span><span class="col--html">/head</span><span>></span><br />
-            <span><</span><span class="col--html">body</span><span>></span><br /><br />
-            <span><</span><span class="col--html">h1</span><span>></span
-            ><span>This is a heading</span><span><</span><span class="col--html">/h1</span
+            <span><</span><span class="body__html">/head</span><span>></span><br />
+            <span><</span><span class="body__html">body</span><span>></span><br /><br />
+            <span><</span><span class="body__html">h1</span><span>></span
+            ><span>This is a heading</span><span><</span><span class="body__html">/h1</span
             ><span>></span><br />
-            <span><</span><span class="col--html">p</span><span>></span
-            ><span>This is a paragrap.</span><span><</span><span class="col--html">/p</span
+            <span><</span><span class="body__html">p</span><span>></span
+            ><span>This is a paragrap.</span><span><</span><span class="body__html">/p</span
             ><span>></span><br /><br />
-            <span><</span><span class="col--html">/body</span><span>></span><br />
-            <span><</span><span class="col--html">/html</span><span>></span><br />
+            <span><</span><span class="body__html">/body</span><span>></span><br />
+            <span><</span><span class="body__html">/html</span><span>></span><br />
           </div>
           <div>
-            <button type="submit" class="col--left--button1">
+            <button type="submit" class="top__button body__col-left-button1">
               Try it Yourself
             </button>
           </div>
         </div>
       </div>
-      <div class="body--bottom--content">
-        <div class="col--left--bottom">
-          <div
-            class="col--left--bottom--card1"
-            style="font-weight: bold; font-size: 80px"
-          >
+      <div class="body__content-second">
+        <div class="body__col-left-second">
+          <div class="body__col-left-second-card1" style="font-weight: bold; font-size: 80px">
             <label>CSS</label>
           </div>
-          <div class="col--left--bottom--card2" style="font-size: 19px">
+          <div class="body__col-left-second-card2" style="font-size: 19px">
             <p>The language for styling web pages</p>
           </div>
           <div>
-            <button type="submit" class="col--left--bottom--button1">
+            <button type="submit" class="top__button body__col-left-second-button1">
               Learn CSS
             </button>
           </div>
           <div>
-            <button type="submit" class="col--left--bottom--button3">
+            <button type="submit" class="top__button body__col-left-second-button3">
               CSS Reference
             </button>
           </div>
           <div>
-            <button type="submit" class="col--left--bottom--button4">
+            <button type="submit" class="top__button body__col-left-second-button4">
               Get Certified
             </button>
           </div>
         </div>
-        <div class="col--right--bottom">
+        <div class="body__col-right-second">
           <p style="font-weight: bold; font-size: 20px">CSS Example:</p>
-          <div class="col--right--bottom--table">
-            <span class="col--html">body</span><span>{</span><br /><span
+          <div class="body__col-right-second-table">
+            <span class="body__html">body</span><span>{</span><br /><span
               style="padding-left: 30px"
               >background-color: lightblue;</span
             ><br /><span>}</span><br />
-            <span class="col--html">h1</span><span>{</span><br /><span style="padding-left: 30px"
+            <span class="body__html">h1</span><span>{</span><br /><span style="padding-left: 30px"
               >color: white;</span
             ><br /><span style="padding-left: 30px">text-align: center;</span
             ><br /><span>}</span><br />
-            <span class="col--html">p</span><span>{</span><br /><span style="padding-left: 30px"
+            <span class="body__html">p</span><span>{</span><br /><span style="padding-left: 30px"
               >font-family: verdana;</span
             ><br /><span>}</span>
           </div>
           <div>
-            <button type="submit" class="col--left--button1">
+            <button type="submit" class="top__button body__col-left-button1">
               Try it Yourself
             </button>
           </div>
@@ -164,18 +161,18 @@
       </div>
     </div>
     <div class="bottom">
-      <nav class="nav--bottom">
-        <ul>
-          <li><a href="#" class="a--nav--bottom">PLUS</a></li>
-          <li><a href="#" class="a--nav--bottom">SPACES</a></li>
-          <li><a href="#" class="a--nav--bottom">GET CERTIFIED</a></li>
-          <li><a href="#" class="a--nav--bottom">FOR TEACHERS</a></li>
-          <li><a href="#" class="a--nav--bottom">FOR BUSINESS</a></li>
-          <li><a href="#" class="a--nav--bottom">CONTACT US</a></li>
+      <nav class="nav__bottom">
+        <ul class="nav__bottom-list">
+          <li class="top__menu-item"><a href="#" class="nav__bottom-link">PLUS</a></li>
+          <li class="top__menu-item"><a href="#" class="nav__bottom-link">SPACES</a></li>
+          <li class="top__menu-item"><a href="#" class="nav__bottom-link">GET CERTIFIED</a></li>
+          <li class="top__menu-item"><a href="#" class="nav__bottom-link">FOR TEACHERS</a></li>
+          <li class="top__menu-item"><a href="#" class="nav__bottom-link">FOR BUSINESS</a></li>
+          <li class="top__menu-item"><a href="#" class="nav__bottom-link">CONTACT US</a></li>
         </ul>
       </nav>
-      <div class="bottom--discription">
-        <p class="discription">
+      <div class="bottom__discription">
+        <p class="bottom__description-text">
           W3Schools is optimized for learning and training. Examples might be
           simplified to improve reading and learning. Tutorials, references, and
           examples are constantly reviewed to avoid errors, but we cannot
@@ -183,7 +180,7 @@
           agree to have read and accepted our terms of use, cookie and privacy
           policy.
         </p>
-        <p class="discription">Copyright 1999-2025 by Refsnes Data. All Rights Reserved. W3Schools is Powered by W3.CSS.</p>
+        <p class="bottom__description-text">Copyright 1999-2025 by Refsnes Data. All Rights Reserved. W3Schools is Powered by W3.CSS.</p>
       </div>
     </div>
   </body>
