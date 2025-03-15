@@ -54,7 +54,7 @@ img{
     margin-right: 10px;
 }
 
-.top__menu-item{
+.menu-item{
     display: inline;
 }
 
@@ -129,7 +129,7 @@ img{
     font-weight: bold;
 }
 
-.body__discription{
+.body__description{
     color: yellow;
     font-size: 25px;
     font-weight: bold;
@@ -372,7 +372,7 @@ img{
     padding: 50px;
 }
 
-.bottom__discription{
+.bottom__description{
     text-align: center;
     width: 40%;
     color: white;
