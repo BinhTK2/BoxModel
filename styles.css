@@ -155,7 +155,7 @@ img{
     text-align: center;
 }
 
-.body__col-left{
+.body__column-left{
     width: 30%;
     height: 80%;
     text-align: center;
@@ -163,7 +163,7 @@ img{
     margin-top: 30px;
 }
 
-.body__col-left-button1{
+.body__column-left-learn{
     font-size: 18px;
     background-color: #04AA6D;
     border: none;
@@ -172,7 +172,7 @@ img{
     margin-top: 20px;
 }
 
-.body__col-left-button1:hover{
+.body__column-left-learn:hover{
     font-size: 18px;
     background-color: #1a7755;
     border: none;
@@ -181,7 +181,7 @@ img{
     margin-top: 20px;
 }
 
-.body__col-left-button2{
+.body__column-left-video{
     font-size: 18px;
     background-color: yellow;
     border: none;
@@ -189,7 +189,7 @@ img{
     margin-top: 20px;
 }
 
-.body__col-left-button2:hover{
+.body__column-left-video:hover{
     font-size: 18px;
     background-color: rgb(202, 202, 67);
     border: none;
@@ -197,7 +197,7 @@ img{
     margin-top: 20px;
 }
 
-.body__col-left-button3{
+.body__column-left-reference{
     font-size: 18px;
     background-color: black;
     border: none;
@@ -206,7 +206,7 @@ img{
     margin-top: 20px;
 }
 
-.body__col-left-button3:hover{
+.body__column-left-reference:hover{
     font-size: 18px;
     background-color: rgb(72, 70, 70);
     border: none;
@@ -215,7 +215,7 @@ img{
     margin-top: 20px;
 }
 
-.body__col-left-button4{
+.body__column-left-certified{
     font-size: 18px;
     background-color: #FFC0C7;
     border: none;
@@ -223,7 +223,7 @@ img{
     margin-top: 20px;
 }
 
-.body__col-left-button4:hover{
+.body__column-left-certified:hover{
     font-size: 18px;
     background-color: #de818c;
     border: none;
@@ -231,7 +231,7 @@ img{
     margin-top: 20px;
 }
 
-/* body__col-right */
+/* body__column-right */
 
 .body__html{
     color: #d02b83;
@@ -241,7 +241,7 @@ img{
     color: #888888;
 }
 
-.body__col-right{
+.body__column-right{
     width: 30%;
     height: 80%;
     text-align: left;
@@ -254,7 +254,7 @@ img{
     
 }
 
-.body__col-right-table{
+.body__column-right-table{
     width: 90%;
     height: 60%;
     background-color: white;
@@ -272,7 +272,7 @@ img{
     text-align: center;
 }
 
-.body__col-left-second{
+.body__column-left-second{
     width: 30%;
     height: 80%;
     text-align: center;
@@ -280,7 +280,7 @@ img{
     margin-top: 30px;
 }
 
-.body__col-left-second-button1{
+.body__column-left-second-learn{
     font-size: 18px;
     background-color: #04AA6D;
     border: none;
@@ -289,7 +289,7 @@ img{
     margin-top: 20px;
 }
 
-.body__col-left-second-button1:hover{
+.body__column-left-second-learn:hover{
     font-size: 18px;
     background-color: #1a7755;
     border: none;
@@ -298,7 +298,7 @@ img{
     margin-top: 20px;
 }
 
-.body__col-left-second-button3{
+.body__column-left-second-reference{
     font-size: 18px;
     background-color: black;
     border: none;
@@ -307,7 +307,7 @@ img{
     margin-top: 20px;
 }
 
-.body__col-left-second-button3:hover{
+.body__column-left-second-reference:hover{
     font-size: 18px;
     background-color: rgb(72, 70, 70);
     border: none;
@@ -316,7 +316,7 @@ img{
     margin-top: 20px;
 }
 
-.body__col-left-second-button4{
+.body__column-left-second-certified{
     font-size: 18px;
     background-color: #FFC0C7;
     border: none;
@@ -324,7 +324,7 @@ img{
     margin-top: 20px;
 }
 
-.body__col-left-second-button4:hover{
+.body__column-left-second-certified:hover{
     font-size: 18px;
     background-color: #de818c;
     border: none;
@@ -334,7 +334,7 @@ img{
 
 /* col--right--second */
 
-.body__col-right-second{
+.body__column-right-second{
     width: 30%;
     height: 80%;
     text-align: left;
@@ -347,7 +347,7 @@ img{
     
 }
 
-.body__col-right-second-table{
+.body__column-right-second-table{
     width: 90%;
     height: 60%;
     background-color: white;
